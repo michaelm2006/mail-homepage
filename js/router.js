@@ -22,7 +22,7 @@ const handleLocation = async () => {
         document.getElementById("loc").innerHTML = name + " / " + "info" ;
     }
     else {
-        document.getElementById("loc").innerHTML = path.replace("/", "") + " / " + name;
+        document.getElementById("loc").innerHTML =  name + " / " + path.replace("/", "");
     }
 };
 
