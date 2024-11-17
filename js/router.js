@@ -19,10 +19,10 @@ const handleLocation = async () => {
     document.getElementById("info").innerHTML = html;
 
     if (window.location.pathname.endsWith("/")) {
-        document.getElementById("loc").innerHTML = name + "/" + "info" ;
+        document.getElementById("loc").innerHTML = name + " / " + "info" ;
     }
     else {
-        document.getElementById("loc").innerHTML =  name + "/" + path.replace("/", "");
+        document.getElementById("loc").innerHTML =  name + " / " + path.replace("/", "");
     }
 };
 
